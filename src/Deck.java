@@ -17,7 +17,10 @@ public class Deck {
 				}
 				
 			}
-		}	
+		}
+		for (int x=0;x<2;x++) {
+			cards.add(new Card(15,"Joker","Joker"));
+		}
 	}
 	
 	public void shuffle() {
